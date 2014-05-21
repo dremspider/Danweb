@@ -1,0 +1,22 @@
+Project 1
+
+Danweb
+
+to make danweb, use the commands:
+make danweb
+
+All folders passed into the command line and the configuration file must have a trailing slash at the end, otherwise it will fail.
+
+The module for testing purposes is hello.o. To make this program, run the command "make hello".
+
+The attackcmd.sh program is a simple shell script to verify the input handling at the command line
+
+The attackweb.sh is a python script to verify that it can work with bad input across the web.  I also used apache bench to test the application
+
+Sources:
+I used this resource as a starting point for my program:
+http://www.ibm.com/developerworks/systems/library/es-nweb/index.html
+
+
+
+
